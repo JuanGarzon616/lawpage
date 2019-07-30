@@ -1,9 +1,10 @@
-.div {
+.div{
     font-family: arial;
     height: auto;
-    width: 49%;
+    width: 100%;
+    background: #FFA1A1;
     border-radius: 20px 20px 20px 20px;
-    border: 1px solid black;
+    border: 3px solid black;
     float: left;
 
 }
