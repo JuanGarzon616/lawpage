@@ -17,5 +17,22 @@
 
 }
 .div2{
-
+     font-family: arial;
+    height: auto;
+    width: 49%;
+    background: #FFA1A1;
+    border-radius: 50% 50% 50% 50%;
+    border: 3px solid black;
+    
+    float: left;
 }
+.div3{
+     font-family: arial;
+    height: auto;
+    width: 49%;
+    background: #FFA1A1;
+    border-radius: 50% 50% 50% 50%;
+    border: 3px solid black;
+    float: right;
+}
+
