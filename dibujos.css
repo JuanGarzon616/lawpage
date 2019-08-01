@@ -1,38 +1,63 @@
+div{
+font-family: arial;
+
+}
 .div{
-    font-family: arial;
+    
     height: auto;
-    width: 100%;
+    width: 90%;
     background: #FFA1A1;
     border-radius: 20px 20px 20px 20px;
     border: 3px solid black;
-    float: left;
+    float: center;
+    box-sizing: border-box;
+    margin: 0px auto;
+
 }
 .div1{
-    font-family: arial;
+    
+    height: auto;
+    width: 80%;
+    background: #FFA1A1;
+    border: 0px solid black;
+    float: center;
+    box-sizing: border-box;
+    margin: auto;
+}
+.div2{
+     
+    height: auto;
+    width: 49%;
+   
+    float: left;
+     box-sizing: border-box;
+     margin: auto;
+}
+.div3{
+     
+    height: auto;
+    width: 49%;
+   
+    box-sizing: border-box;
+    float: right;
+    margin: auto;
+}
+.div4{
+   
+    height: 1em;
+    width: 100%;
+    background: #FFD4D4;
+    border-radius: 1% 1% 1% 1%;
+    float: left;
+      }
+.footer{
+    bottom: 0px;
+    position: fixed;
     height: auto;
     width: 100%;
     background: #FFA1A1;
-    border: 0px solid black;
-    float: left;
-
-}
-.div2{
-     font-family: arial;
-    height: auto;
-    width: auto;
-    background: #FFA1A1;
-    border-radius: 50% 50% 50% 50%;
-    border: 3px solid black;
+    float: center;
+    box-sizing: border-box;
     
-    float: left;
-}
-.div3{
-     font-family: arial;
-    height: auto;
-    width: auto;
-    background: #FFA1A1;
-    border-radius: 50% 50% 50% 50%;
-    border: 3px solid black;
-    float: right;
-}
 
+}
