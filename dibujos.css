@@ -37,19 +37,14 @@ font-family: arial;
      
     height: auto;
     width: 49%;
-   
     box-sizing: border-box;
     float: right;
     margin: auto;
 }
-.div4{
-   
-    height: 1em;
-    width: 100%;
-    background: #FFD4D4;
-    border-radius: 1% 1% 1% 1%;
-    float: left;
-      }
+.center{
+    position: relative;
+    top: 10px;
+}
 .footer{
     bottom: 0px;
     position: fixed;
@@ -58,6 +53,4 @@ font-family: arial;
     background: #FFA1A1;
     float: center;
     box-sizing: border-box;
-    
-
 }
