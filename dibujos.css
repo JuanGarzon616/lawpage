@@ -60,15 +60,24 @@ background: rgba(0,0,0,0.3);
     color: #000000;
 }
 /*para el efecto responsive*/
-@media (max-width: 1000px){
+@media (max-width: 768px){
     header label {
         display: block;
     }
     .menu {
         position: absolute;
         background: #CBCBCB;
+        width: 70%;
+        margin-left: -75%;
     }
     .menu ul {
         flex-direction: column;
+    }
+    .menu li{
+        border-top: 1px solid #fff;
+    }
+    /*ese simbolo se llama virgulilla aca es por si hace el check del input*/
+    #btn-menu:checked ~ .menu{
+        margin: 0;
     }
 }
