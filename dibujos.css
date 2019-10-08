@@ -61,7 +61,7 @@ background: rgba(0,0,0,0.3);
     color: #000000;
 }
 /*para el efecto responsive*/
-@media (max-width: 1200px){
+@media (max-width: 768px){
     header label {
         display: block;
     }
