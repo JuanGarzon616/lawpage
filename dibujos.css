@@ -1,0 +1,74 @@
+body{
+margin 0;
+font-family: sans-serif;
+
+
+}
+header {
+    width: 100%;
+    background: #CBCBCB;
+
+}
+
+#btn-menu {
+display: none;
+
+
+}
+/*display de la hamburguesa*/
+header label {
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+}
+/*evento*/
+header label:hover{
+cursor: pointer;
+background: rgba(0,0,0,0.3);
+
+
+}
+
+.menu ul{
+margin: 0;
+list-style: none;
+padding: 0;
+display: flex;
+/*para la posicion de los botones
+justify-content: center;*/
+}
+
+.menu li {
+    border-right: 1px solid #fff;
+
+}
+
+
+
+/*evento de cambio de color encima de los botones*/
+.menu li:hover{
+background: rgba(0,0,0,0.3);
+
+}
+
+.menu li a{
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #000000;
+}
+/*para el efecto responsive*/
+@media (max-width: 768px){
+    header label {
+        display: block;
+    }
+    .menu {
+        position: absolute;
+        background: #CBCBCB;
+    }
+    .menu ul {
+        flex-direction: column;
+    }
+}
