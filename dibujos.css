@@ -1,12 +1,13 @@
 body{
-margin 0;
+margin: 0px;
 font-family: sans-serif;
-background: #000000;
+background: #F2F4F4;
+color: #FDFEFE;
 
 }
 header {
     width: 100%;
-    background: #CBCBCB;
+    background: #424949;
 
 }
 
@@ -21,7 +22,7 @@ header label {
     width: 30px;
     height: 30px;
     padding: 10px;
-    border-right: 1px solid #fff;
+    border-right: 1px solid #F2F4F4;
     
 }
 /*evento*/
@@ -39,11 +40,13 @@ padding: 0;
 display: flex;
 /*para la posicion de los botones*/
 justify-content: center;
+
 }
 
 .menu li {
-    border-right: 1px solid #fff;
-border-left: 1px solid #fff;
+
+    border-right: 1px solid #F2F4F4;
+border-left: 1px solid #F2F4F4;
 }
 
 
@@ -58,7 +61,7 @@ background: rgba(0,0,0,0.3);
     display: block;
     padding: 15px 20px;
     text-decoration: none;
-    color: #000000;
+    color: #FDFEFE;
 }
 /*para el efecto responsive*/
 @media (max-width: 768px){
@@ -67,7 +70,7 @@ background: rgba(0,0,0,0.3);
     }
     .menu {
         position: absolute;
-        background: #CBCBCB;
+        background: #424949;
         width: 70%;
         margin-left: -75%;
         transition: all 0.3s;
@@ -76,7 +79,7 @@ background: rgba(0,0,0,0.3);
         flex-direction: column;
     }
     .menu li{
-        border-top: 1px solid #fff;
+        border-top: 1px solid #F2F4F4;
     }
     /*ese simbolo se llama virgulilla aca es por si hace el check del input*/
     #btn-menu:checked ~ .menu{
@@ -86,8 +89,10 @@ background: rgba(0,0,0,0.3);
 .portada{
     width: 99.8%;
     height: 200px;
-    
     text-align: center;
-    border: 1px solid #fff;
-    background: #CBCBCB;
+    border: 1px solid #F2F4F4;
+    background: #424949;
+}
+.portada h1{
+    padding-top: 30px;
 }
