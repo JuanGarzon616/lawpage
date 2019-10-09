@@ -6,6 +6,7 @@ color: #FDFEFE;
 box-sizing: border-box;
 padding: 0px;
 }
+
 header {
     width: 100%;
     background: #424949;
@@ -16,24 +17,21 @@ header {
 
 #btn-menu {
 display: none;
-
-
 }
+
 /*display de la hamburguesa*/
 header label {
     display: none;
     width: 30px;
     height: 30px;
     padding: 10px;
-    border-right: 1px solid #F2F4F4;
-    
+    border: 1px solid #F2F4F4;  
 }
+
 /*evento*/
 header label:hover{
 cursor: pointer;
 background: rgba(0,0,0,0.3);
-
-
 }
 
 .menu ul{
@@ -47,17 +45,13 @@ border-bottom: 1px solid #F2F4F4;
 }
 
 .menu li {
-
-    border-right: 1px solid #F2F4F4;
+border-right: 1px solid #F2F4F4;
 border-left: 1px solid #F2F4F4;
 }
-
-
 
 /*evento de cambio de color encima de los botones*/
 .menu li:hover{
 background: rgba(0,0,0,0.3);
-
 }
 
 .menu li a{
@@ -66,6 +60,7 @@ background: rgba(0,0,0,0.3);
     text-decoration: none;
     color: #FDFEFE;
 }
+
 /*para el efecto responsive*/
 @media (max-width: 768px){
     header label {
@@ -77,27 +72,32 @@ background: rgba(0,0,0,0.3);
         width: 70%;
         margin-left: -75%;
         transition: all 0.3s;
+ border: 1px solid #F2F4F4;
     }
     .menu ul {
         flex-direction: column;
     }
+
     .menu li{
         border-bottom: 1px solid #F2F4F4;
     }
+
     /*ese simbolo se llama virgulilla aca es por si hace el check del input*/
     #btn-menu:checked ~ .menu{
         margin: 0;
-    }
+    }   
 }
+
 .portada{
     width: 99.8%;
     height: 200px;
     text-align: center;
+    border-top: 1px solid #F2F4F4;
     border: 1px solid #F2F4F4;
     background: #424949;
-    padding-top: 48px;
-
+    padding-top: 70px;
 }
+
 .portada h1{
     padding-top: 30px;
 }
