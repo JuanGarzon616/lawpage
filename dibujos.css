@@ -79,7 +79,7 @@ background: rgba(0,0,0,0.3);
         flex-direction: column;
     }
     .menu li{
-        border-top: 1px solid #F2F4F4;
+        border-bottom: 1px solid #F2F4F4;
     }
     /*ese simbolo se llama virgulilla aca es por si hace el check del input*/
     #btn-menu:checked ~ .menu{
