@@ -101,3 +101,20 @@ background: rgba(0,0,0,0.3);
 .portada h1{
     padding-top: 30px;
 }
+
+.relleno{
+width: 100%; 
+text-align: justify; 
+color: black;
+}
+
+.relleno p{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.relleno img{
+    width: 35%;
+ display: block;
+ margin: 0 auto;
+}
