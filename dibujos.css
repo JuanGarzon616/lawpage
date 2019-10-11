@@ -4,10 +4,10 @@ font-family: sans-serif;
 background: #F2F4F4;
 color: #FDFEFE;
 box-sizing: border-box;
-padding: 0px;
-display: flex;
+padding: 0px;/*
 min-height: 100vh;
-flex-wrap: wrap;
+display: flex;
+flex-wrap: wrap;*/
 }
 
 header {
@@ -92,12 +92,12 @@ background: rgba(0,0,0,0.3);
 }
 
 .portada{
-    width: 99.8%;
+    margin: 0;
+    width: 100%;
     height: 200px;
     text-align: center;
-    border-top: 1px solid #F2F4F4;
-    border: 1px solid #F2F4F4;
     background: #424949;
+    border-bottom: 2px solid #000000;
     padding-top: 70px;
 }
 
@@ -113,11 +113,17 @@ color: black;
 
 .relleno img{
     width: 35%;
- display: block;
- padding-top: 100px;
- padding-bottom: 100px;
  margin: 0 auto;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
+
+.relleno img:hover{
+cursor: pointer;
+background: rgba(0,0,0,0.3);
+}
+
 .rellenos{
     margin: 0;
     box-sizing: border-box;
@@ -136,7 +142,28 @@ color: black;
     width: 100%;
     height: auto;
     background: #424949;
-    /*
-    position: absolute;*/
-    align-self: flex-end;
+    position: absolute;
+}
+
+.logosena{
+padding-bottom: 30em;
+padding-top: 30em;
+}
+
+.logo{
+    background: #424949;
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
+}
+.integrantes{
+    color: #000000;
+    text-align: center;
+    font-size: 200%;
+    padding-top: 500px;
+    padding-bottom: 500px;
+}
+.integrantes li{
+    display: block;
+    text-decoration: none;
+    padding-right: 35px;
 }
