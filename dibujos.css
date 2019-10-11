@@ -5,6 +5,9 @@ background: #F2F4F4;
 color: #FDFEFE;
 box-sizing: border-box;
 padding: 0px;
+display: flex;
+min-height: 100vh;
+flex-wrap: wrap;
 }
 
 header {
@@ -108,13 +111,32 @@ text-align: justify;
 color: black;
 }
 
-.relleno p{
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
 .relleno img{
     width: 35%;
  display: block;
+ padding-top: 100px;
+ padding-bottom: 100px;
  margin: 0 auto;
+}
+.rellenos{
+    margin: 0;
+    box-sizing: border-box;
+    text-align: justify;
+    color: black;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 200px;
+
+}
+
+.prueba{
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    background: #424949;
+    /*
+    position: absolute;*/
+    align-self: flex-end;
 }
