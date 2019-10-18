@@ -75,7 +75,7 @@ background: rgba(0,0,0,0.3);
         width: 70%;
         margin-left: -75%;
         transition: all 0.3s;
- border: 1px solid #F2F4F4;
+        border: 1px solid #F2F4F4;
     }
     .menu ul {
         flex-direction: column;
@@ -94,16 +94,24 @@ background: rgba(0,0,0,0.3);
 .portada{
     margin: 0;
     width: 100%;
-    height: 200px;
+    height: auto;
     text-align: center;
     background: #424949;
     border-bottom: 2px solid #000000;
     padding-top: 70px;
+    font-size: 30px;
+    box-sizing: border-box;
+     padding-bottom: 50px;
 }
 
 .portada h1{
     padding-top: 30px;
+    box-sizing: border-box;
 }
+
+   
+   
+
 
 .relleno{
 width: 100%; 
