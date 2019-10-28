@@ -1,0 +1,2 @@
+git revert head^ --hard
+git push -f
