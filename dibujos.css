@@ -55,6 +55,7 @@ border-left: 1px solid #F2F4F4;
 /*evento de cambio de color encima de los botones*/
 .menu li:hover{
 background: rgba(0,0,0,0.3);
+color:  solid black;
 }
 
 .menu li a{
@@ -109,10 +110,6 @@ background: rgba(0,0,0,0.3);
     box-sizing: border-box;
 }
 
-   
-   
-
-
 .relleno{
 width: 100%; 
 text-align: justify; 
@@ -127,7 +124,7 @@ color: black;
  align-items: center;
 }
 
-.relleno img:hover{
+.relleno  .logosena img:hover{
 cursor: pointer;
 background: rgba(0,0,0,0.3);
 }
