@@ -43,8 +43,11 @@ list-style: none;
 padding: 0;
 display: flex;
 /*para la posicion de los botones*/
-justify-content: center;
-border-bottom: 1px solid #F2F4F4;
+justify-content: center;/*
+border-bottom: 1px solid #F2F4F4;*/
+box-shadow: 0 0 0 2px #Fff,
+                0 0 0 3px #ccc,
+                0 20px 20px -12px #000000; 
 }
 
 .menu li {
@@ -82,8 +85,10 @@ color:  solid black;
         flex-direction: column;
     }
 
-    .menu li{
-        border-bottom: 1px solid #F2F4F4;
+    .menu li{/*
+        border-bottom: 1px solid #F2F4F4;*/
+        box-shadow: 0 0 0 1px #Fff,
+                0 20px 20px -12px #000000; 
     }
 
     /*ese simbolo se llama virgulilla aca es por si hace el check del input*/
@@ -97,8 +102,11 @@ color:  solid black;
     width: 100%;
     height: auto;
     text-align: center;
-    background: #424949;
-    border-bottom: 2px solid #000000;
+    background: #424949;/*
+    border-bottom: 2px solid #000000;*/
+    box-shadow: 0 0 0 10px #Fff,
+                0 0 0 11px #ccc,
+                0 20px 20px -12px #000000; 
     padding-top: 70px;
     font-size: 30px;
     box-sizing: border-box;
@@ -200,12 +208,27 @@ margin: 0%;
 
 
 .prueba{
-    text-align: center;
+    text-align: justify;
     margin: 0;
     padding: 0px;
     width: 100%;
     height: auto;
     background: #424949;
-    
-    position: absolute;
+    box-shadow: 0 0 0 10px #Fff,
+                0 0 0 11px rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;/*
+    flex-direction: column;*/
+}
+.prueba li{
+list-style: none;
+}
+@media (max-width: 610px){
+    .prueba{
+     flex-direction: column;   
+    }
+    .prueba p{
+        padding-top: 5em;
+    }
 }
