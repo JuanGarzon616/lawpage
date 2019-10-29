@@ -178,13 +178,19 @@ border-radius: 50%;
 }
 
 .integrantes .inte  ul li {
+text-align: justify;
 list-style: none;
 margin: 0%;
 }
+@media (max-width: 1300px){
+    .integrantes .inte{
+    width: 70%;
+    }
 
+}
 @media (max-width: 1000px){
     .integrantes .inte{
-    width: 90%;
+    width: 95%;
     }
 
 }
