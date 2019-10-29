@@ -4,10 +4,10 @@ font-family: sans-serif;
 background: #F2F4F4;
 color: #FDFEFE;
 box-sizing: border-box;
-padding: 0px;/*
+padding: 0px;
+display: flexbox;
 min-height: 100vh;
-display: flex;
-flex-wrap: wrap;*/
+
 }
 
 header {
@@ -111,24 +111,45 @@ color:  solid black;
 }
 
 .relleno{
-width: 100%; 
-text-align: justify; 
-color: black;
+    width: 100%;
+    padding-top: 10em;
+    color: black;
+    box-sizing: border-box;
+    display: flex;
+    text-align: justify; 
+    justify-content: space-around;
 }
 
-.relleno img{
-    width: 35%;
- margin: 0 auto;
- display: flex;
- justify-content: center;
- align-items: center;
+
+.relleno .logosena {
+    width: 80%;
+}
+.relleno .logo{
+    width: 20%;
 }
 
-.relleno  .logosena img:hover{
+.relleno  .logosena:hover{
 cursor: pointer;
-background: rgba(0,0,0,0.3);
+background: rgba(0,0,0,0.1);
+border-radius: 50%;
 }
 
+@media screen and (max-width: 1000px){
+    .relleno{
+        text-align: justify; 
+        align-items: center;
+        flex-direction: column;
+    }
+    .relleno .logosena {
+        width: 80%;
+    }
+    .relleno .logo{
+        padding-top: 10em;
+        width: 65%;
+    }
+}
+
+/*
 .rellenos{
     margin: 0;
     box-sizing: border-box;
@@ -137,19 +158,9 @@ background: rgba(0,0,0,0.3);
     padding-right: 10%;
     padding-left: 10%;
     padding-bottom: 200px;
+}*/
 
-}
-
-.prueba{
-    text-align: center;
-    margin: 0;
-    padding: 0px;
-    width: 100%;
-    height: auto;
-    background: #424949;
-    position: absolute;
-}
-
+/*
 .logosena{
 padding-bottom: 30em;
 padding-top: 30em;
@@ -159,7 +170,8 @@ padding-top: 30em;
     background: #424949;
     border-bottom: 1px solid #000000;
     border-top: 1px solid #000000;
-}
+}*/
+
 .integrantes{
     color: #000000;
     text-align: center;
@@ -171,4 +183,19 @@ padding-top: 30em;
     display: block;
     text-decoration: none;
     padding-right: 35px;
+}
+
+
+
+
+
+.prueba{
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    background: #424949;
+    
+    position: absolute;
 }
